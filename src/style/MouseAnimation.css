@@ -1,0 +1,28 @@
+.mobile-animation {
+    position: absolute;
+    width: 8em;
+    margin: 50px;
+    animation: mobileMove 15s linear infinite;
+}
+
+@keyframes mobileMove {
+    0% {
+        transform: translate(-20, -10);
+    }
+
+    25% {
+        transform: translate(50vw, 50vh);
+    }
+
+    50% {
+        transform: translate(-50vw, -50vh);
+    }
+
+    75% {
+        transform: translate(-50vw, 50vh);
+    }
+
+    100% {
+        transform: translate(50vw, -50vh);
+    }
+}

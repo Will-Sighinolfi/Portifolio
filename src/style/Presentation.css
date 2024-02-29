@@ -1,0 +1,68 @@
+.Container-Start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 25em;
+    transition: transform 0.3s ease;
+    margin-right: 3%;
+}
+
+.avatar:hover {
+    transform: translateY(-20px);
+}
+
+@media (min-width: 1025px) {
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .avatar {
+        width: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Death-start {
+        margin-top: 20px;
+    }
+
+    .avatar {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}

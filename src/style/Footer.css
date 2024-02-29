@@ -1,0 +1,44 @@
+.Footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.container-footer {
+  margin-top: 20px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.contacts h1 {
+  margin-right: 20px;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-6deg);
+  }
+
+  50% {
+    transform: rotate(6deg);
+  }
+
+  100% {
+    transform: rotate(-6deg);
+  }
+}
+
+.swing-animation {
+  animation: swing 4s infinite;
+  transform-origin: center bottom;
+}

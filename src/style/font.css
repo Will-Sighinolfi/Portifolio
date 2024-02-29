@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Star Jedi';
+  src: url('../font/sf_distant_galaxy/SF\ Distant\ Galaxy\ Alternate.ttf') format('truetype');
+}
+
+.star-wars-text {
+  font-family: 'Star Jedi', sans-serif;
+  letter-spacing: 3px;
+}

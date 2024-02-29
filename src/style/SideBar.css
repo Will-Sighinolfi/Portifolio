@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mainColor: #ffffff;
+    --color1: #bfb2264f;
+    --color2: rgb(185 176 85);
+    --color3: #ffffff;
+}
+
+.sidebar-wrapper {
+    max-width: 300px;
+    min-width: 0;
+    height: 100vh;
+    background: rgb(64, 78, 104);
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 0.5s ease;
+}
+
+.sidebar-wrapper .sidebar {
+    width: 100%;
+}
+
+.sidebar-wrapper .sidebar .avatar-wrapper {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+}
+
+.sidebar-wrapper .sidebar .avatar-wrapper::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(64, 78, 104);
+    z-index: -11;
+}
+
+.sidebar-wrapper .sidebar .avatar-wrapper .avatar {
+    width: 55%;
+}
+
+.sidebar-wrapper .sidebar nav {
+    width: 100%;
+}
+
+.sidebar-wrapper .sidebar nav .menu {
+    list-style: none;
+}
+
+.sidebar-wrapper .sidebar nav .menu li {
+    border-bottom: 1px solid #494949;
+    font-size: 1.1rem;
+}
+
+.sidebar-wrapper .sidebar nav .menu li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 20px;
+    transition: 0.5s ease;
+}
+
+.sidebar-wrapper .sidebar nav .menu li a:hover {
+    background: -webkit-linear-gradient(45deg, var(--color1), var(--color2));
+}
+
+.sidebar-wrapper .sidebar nav .menu li a i {
+    margin-right: 15px;
+}
+
+.config-svg {
+    position: fixed;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 2.5rem;
+}
+
+.open {
+    margin-top: 3%;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 25px;
+    font-size: 1.5rem;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.sidebar-wrapper {
+    left: 0;
+}
+
+@media (min-width: 1025px) {
+    .sidebar-wrapper .sidebar nav .menu li a {
+        font-size: 1.5em;
+    }
+}

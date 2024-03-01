@@ -16,8 +16,8 @@ export default function SideBar() {
         <>
             <div className="container">
                 <input type="checkbox" id="check" />
-                <label htmlFor="check" className="open icon">
-                    <FontAwesomeIcon className="config-svg" icon={faBars} />
+                <label htmlFor="check" className="open">
+                    <FontAwesomeIcon className="icon config-svg" icon={faBars} />
                 </label>
                 <div className="sidebar-wrapper">
                     <div className="sidebar">

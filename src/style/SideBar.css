@@ -92,6 +92,7 @@
 
 .config-svg {
     position: fixed;
+    font-size: 40px;
 }
 
 .close {

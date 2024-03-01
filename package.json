@@ -1,8 +1,11 @@
 {
   "name": "app-inicial",
   "version": "0.1.0",
+  "homepage": "https://Will-Sighinolfi.github.io/Portifolio",
   "private": true,
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -25,6 +28,7 @@
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.4",
+    "gh-pages": "^6.1.1",
     "postcss": "^8",
     "tailwindcss": "^3",
     "typescript": "^5"

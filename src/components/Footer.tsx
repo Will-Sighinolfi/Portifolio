@@ -13,9 +13,9 @@ export default function Footer() {
                         <p>Entre em contato</p>
                     </div>
                     <div className='contacts text-color swing-animation star-wars-text'>
-                        <h1><a href="https://www.instagram.com/" target="_blank"><FontAwesomeIcon icon={faInstagram} className="icon" />  Instagram</a></h1>
-                        <h1><a href="https://www.linkedin.com/in/willian-sighinolfi-6a3974172" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="icon" /> Linkedin</a></h1>
-                        <h1><a href="/"><FontAwesomeIcon icon={faEnvelope} className="icon" /> E-mail</a></h1>
+                        <h1><a href="https://www.instagram.com/" target="_blank"><FontAwesomeIcon icon={faInstagram} className="icon-footer" />Instagram</a></h1>
+                        <h1><a href="https://www.linkedin.com/in/willian-sighinolfi-6a3974172" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="icon-footer" />Linkedin</a></h1>
+                        <h1><a href="/"><FontAwesomeIcon icon={faEnvelope} className="icon-footer" />E-mail</a></h1>
                     </div>
                 </div>
             </footer>

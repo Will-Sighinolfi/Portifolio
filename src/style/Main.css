@@ -238,8 +238,15 @@ hr {
     font-size: 25px;
   }
 
+  .icon-footer {
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 150px;
+  }
+
   .contacts {
-    font-size: 8px;
+    font-size: 0.5em;
+    margin-bottom: 35px;
   }
 
   .square {

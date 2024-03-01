@@ -141,15 +141,15 @@ hr {
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .sub-title {
-    font-size: 1.25em;
+    font-size: 0.9em;
   }
 
   .text {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .text-config {
@@ -196,15 +196,15 @@ hr {
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .sub-title {
-    font-size: 1.25em;
+    font-size: 1em;
   }
 
   .text {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .text-config {
@@ -243,8 +243,8 @@ hr {
   }
 
   .square {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 
   .TicTacToe {
@@ -260,11 +260,11 @@ hr {
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .sub-title {
-    font-size: 1.25em;
+    font-size: 1.10em;
   }
 
   .text {

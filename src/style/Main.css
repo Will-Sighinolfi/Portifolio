@@ -372,6 +372,7 @@ hr {
 }
 
 @media (max-width: 750px) {
+
   img.avatar {
     width: 20em;
   }
@@ -440,11 +441,6 @@ hr {
     order: 1;
     margin-top: 0;
   }
-
-  .Button-Theme {
-    margin-left: 200px;
-    padding: 3px 7px;
-  }
 }
 
 @media (min-width: 1500px) {
@@ -454,10 +450,5 @@ hr {
 
   .img-jedi {
     margin: 150px 200px 100px 0px
-  }
-
-  .Button-Theme {
-    margin-left: 250px;
-    padding: 3px 7px;
   }
 }

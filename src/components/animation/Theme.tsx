@@ -10,19 +10,24 @@ function Theme() {
         setIsLightTheme(!isLightTheme);
 
         const body = document.body;
-        const textElements = document.querySelectorAll('.text-color') as NodeListOf<HTMLElement>;
+        const titleElements = document.querySelectorAll('.text-color') as NodeListOf<HTMLElement>;
+        const textElements = document.querySelectorAll('.text') as NodeListOf<HTMLElement>;
         const iconElements = document.querySelectorAll('.content-icons') as NodeListOf<HTMLElement>;
         const iconFooter = document.querySelectorAll('.icon') as NodeListOf<HTMLElement>;
 
         if (isLightTheme) {
             body.classList.remove('light-theme');
             body.classList.add('dardk-theme');
-            textElements.forEach(element => {
+            titleElements.forEach(element => {
                 element.style.background = '-webkit-linear-gradient(white, #38495a)';
                 element.style.webkitBackgroundClip = 'text';
                 element.style.webkitTextFillColor = 'transparent';
                 element.style.backgroundClip = 'text';
                 element.style.color = 'transparent';
+            });
+
+            textElements.forEach(element => {
+                element.style.color = 'white';
             });
 
             iconElements.forEach(element => {
@@ -41,7 +46,7 @@ function Theme() {
         } else {
             body.classList.remove('dardk-theme')
             body.classList.add('light-theme');
-            textElements.forEach(element => {
+            titleElements.forEach(element => {
                 element.style.background = '-webkit-linear-gradient(#000000, #000000)';
                 element.style.webkitBackgroundClip = 'text';
                 element.style.webkitTextFillColor = 'transparent';
@@ -54,6 +59,10 @@ function Theme() {
                 element.style.textAlign = 'center';
                 element.style.margin = '20px';
                 element.style.padding = '20px';
+            });
+
+            textElements.forEach(element => {
+                element.style.color = 'black';
             });
 
             iconFooter.forEach(element => {

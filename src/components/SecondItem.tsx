@@ -16,7 +16,7 @@ export default function SecondItem() {
                                 <h2 className="sub-title text-color star-wars-text">
                                     Ensino Superior
                                 </h2>
-                                <p className="text text-color text-space star-wars-text">
+                                <p className="text text-space">
                                     Sou formado em Análise e Desenvolvimento de Sistemas (Fatec): <br />
                                     Minha jornada acadêmica foi uma etapa fundamental na minha trajetória profissional.
                                     Durante esse período, tive a oportunidade de me familiarizar com diversas linguagens,
@@ -26,7 +26,7 @@ export default function SecondItem() {
                                 <h2 className="sub-title text-color star-wars-text" id="Experience">
                                     Experiência Profissional
                                 </h2>
-                                <p className="text text-color text-space star-wars-text">
+                                <p className="text text-space">
                                     Analista e Desenvolvedor (Atual): tenho o privilégio de trabalhar na área de análise e desenvolvimento há quase 2 anos.<br />
                                     Minhas responsabilidades incluem não apenas o desenvolvimento, mas também o monitoramento de sistemas e o acompanhamento de seu desempenho.
                                     Além disso, trabalhei no campo da automacão, o que me permite otimizar as tarefas diárias e aprimorar a eficiência dos processos.<br />

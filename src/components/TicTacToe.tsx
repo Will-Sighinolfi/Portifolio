@@ -112,7 +112,7 @@ export default function Home() {
 
         <div className='text-config'>
           <div>
-            <span className='text text-color star-wars-text width-text'>
+            <span className='text width-text'>
               Tenho conhecimento em JavaScript e suas bibliotecas, com um foco especial em manipulacão de dados.
               Minha experiência abrange a criacão de aplicacões web interativas.
               utilizo em grande parte JavaScript e TypeScript para desenvolver funcionalidades dinâmicas e responsivas.
@@ -127,7 +127,7 @@ export default function Home() {
       </div>
       <div className='text-config'>
         <div>
-          <span className='text text-color star-wars-text width-text'>
+          <span className='text width-text'>
             Além de ter conhecimento em HTML e CSS, onde gosto de brincar com animacões, também sou bastante experiente no desenvolvimento front-end.
             Tenho utilizado o React para criar interfaces interativas e dinâmicas.
           </span>

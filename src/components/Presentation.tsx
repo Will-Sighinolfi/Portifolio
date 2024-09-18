@@ -16,7 +16,7 @@ export default function Presentation() {
                             <p className="text text-color star-wars-text width-text">
                                 Seja bem-vindo ao meu perfil.
                             </p>
-                            <p className="text text-color star-wars-text width-text">
+                            <p className="text width-text">
                                 Meu nome é <strong>Willian</strong>, sou desenvolvedor full-stack, sou inspirado em transformar ideias em realidade.<br />
                                 Aqui, você encontrará um pouco mais sobre minha jornada e projetos.<br />
                                 Sinta-se à vontade para explorar e conhecer um pouco do meu mundo.

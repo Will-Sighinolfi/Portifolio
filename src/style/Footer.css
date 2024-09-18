@@ -7,6 +7,10 @@
   margin-top: 20px;
 }
 
+.icon-footer {
+  margin-right: 10px;
+}
+
 .contacts {
   display: flex;
   justify-content: center;

@@ -6,17 +6,19 @@ import "../style/font.css"
 
 export default function SecondItem() {
     return (
-        <div className="Second-Container slide-animation">
+        <div className="Second-Container">
             <section>
                 <div className='Second' id="History">
                     <div className='text-container'>
-                        <span><h1 className="title text-color star-wars-text">Minha historia</h1> </span>
+                        <span><h1 className="title text-color star-wars-text" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center">Minha historia</h1> </span>
                         <div>
                             <span>
-                                <h2 className="sub-title text-color star-wars-text">
+                                <h2 className="sub-title text-color star-wars-text" data-aos="fade-up"
+                                    data-aos-anchor-placement="top-center">
                                     Ensino Superior
                                 </h2>
-                                <p className="text text-space">
+                                <p className="text text-space" data-aos="fade-up" data-aos-anchor-placement="top-center">
                                     Sou formado em Análise e Desenvolvimento de Sistemas (Fatec): <br />
                                     Minha jornada acadêmica foi uma etapa fundamental na minha trajetória profissional.
                                     Durante esse período, tive a oportunidade de me familiarizar com diversas linguagens,

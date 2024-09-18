@@ -25,10 +25,10 @@ export default function SecondItem() {
                                     arquitetura de software, bancos de dados e metodologias de desenvolvimento.<br />
                                     Ela me proporcionou as habilidades e conhecimentos necessários para ingressar no mundo profissional.
                                 </p>
-                                <h2 className="sub-title text-color star-wars-text" id="Experience">
+                                <h2 className="sub-title text-color star-wars-text" id="Experience" data-aos="fade-up" data-aos-anchor-placement="top-center">
                                     Experiência Profissional
                                 </h2>
-                                <p className="text text-space">
+                                <p className="text text-space" data-aos="fade-up" data-aos-anchor-placement="top-center">
                                     Analista e Desenvolvedor (Atual): tenho o privilégio de trabalhar na área de análise e desenvolvimento há quase 2 anos.<br />
                                     Minhas responsabilidades incluem não apenas o desenvolvimento, mas também o monitoramento de sistemas e o acompanhamento de seu desempenho.
                                     Além disso, trabalhei no campo da automacão, o que me permite otimizar as tarefas diárias e aprimorar a eficiência dos processos.<br />
@@ -37,7 +37,7 @@ export default function SecondItem() {
                                 </p>
                             </span>
                         </div>
-                        <div className="content-icons">
+                        <div className="content-icons" data-aos="fade-up" data-aos-anchor-placement="top-center">
                             <div className="rotate-border">
                                 <FontAwesomeIcon icon={faSquareJs} className="icon-dev" />
                             </div>

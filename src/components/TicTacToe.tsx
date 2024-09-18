@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <>
-      <div className='content-infos slide-animation'>
+      <div className='content-infos slide-animation' data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div className="game" id='Game'>
           <div className="text-color star-wars-text text-space">
             <div className='text-space'>{status}</div>
@@ -112,7 +112,7 @@ export default function Home() {
 
         <div className='text-config'>
           <div>
-            <span className='text width-text'>
+            <span className='text width-text' data-aos="fade-up" data-aos-anchor-placement="top-center">
               Tenho conhecimento em JavaScript e suas bibliotecas, com um foco especial em manipulacão de dados.
               Minha experiência abrange a criacão de aplicacões web interativas.
               utilizo em grande parte JavaScript e TypeScript para desenvolver funcionalidades dinâmicas e responsivas.
@@ -127,7 +127,7 @@ export default function Home() {
       </div>
       <div className='text-config'>
         <div>
-          <span className='text width-text'>
+          <span className='text width-text' data-aos="fade-up" data-aos-anchor-placement="top-center">
             Além de ter conhecimento em HTML e CSS, onde gosto de brincar com animacões, também sou bastante experiente no desenvolvimento front-end.
             Tenho utilizado o React para criar interfaces interativas e dinâmicas.
           </span>

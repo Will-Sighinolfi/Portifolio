@@ -5,7 +5,7 @@ import { StaticImageData } from 'next/image';
 
 export default function Presentation() {
     return (
-        <div className="Container-Start slide-animation">
+        <div className="Container-Start" data-aos="zoom-in-up">
             <section>
                 <div className="content">
                     <div className="img-jedi">

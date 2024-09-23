@@ -11,24 +11,24 @@ export default function SecondItem() {
                 <div className='Second' id="History">
                     <div className='text-container'>
                         <span><h1 className="title text-color star-wars-text" data-aos="fade-up"
-                            data-aos-anchor-placement="top-center">Minha historia</h1> </span>
+                            data-aos-anchor-placement="top-bottom">Minha historia</h1> </span>
                         <div>
                             <span>
                                 <h2 className="sub-title text-color star-wars-text" data-aos="fade-up"
-                                    data-aos-anchor-placement="top-center">
+                                    data-aos-anchor-placement="top-bottom">
                                     Ensino Superior
                                 </h2>
-                                <p className="text text-space" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                                <p className="text text-space" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                     Sou formado em Análise e Desenvolvimento de Sistemas (Fatec): <br />
                                     Minha jornada acadêmica foi uma etapa fundamental na minha trajetória profissional.
                                     Durante esse período, tive a oportunidade de me familiarizar com diversas linguagens,
                                     arquitetura de software, bancos de dados e metodologias de desenvolvimento.<br />
                                     Ela me proporcionou as habilidades e conhecimentos necessários para ingressar no mundo profissional.
                                 </p>
-                                <h2 className="sub-title text-color star-wars-text" id="Experience" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                                <h2 className="sub-title text-color star-wars-text" id="Experience" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                     Experiência Profissional
                                 </h2>
-                                <p className="text text-space" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                                <p className="text text-space" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                     Analista e Desenvolvedor (Atual): tenho o privilégio de trabalhar na área de análise e desenvolvimento há quase 2 anos.<br />
                                     Minhas responsabilidades incluem não apenas o desenvolvimento, mas também o monitoramento de sistemas e o acompanhamento de seu desempenho.
                                     Além disso, trabalhei no campo da automacão, o que me permite otimizar as tarefas diárias e aprimorar a eficiência dos processos.<br />
@@ -37,7 +37,7 @@ export default function SecondItem() {
                                 </p>
                             </span>
                         </div>
-                        <div className="content-icons" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <div className="content-icons" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                             <div className="rotate-border">
                                 <FontAwesomeIcon icon={faSquareJs} className="icon-dev" />
                             </div>

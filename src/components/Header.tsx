@@ -6,7 +6,7 @@ import "../style/font.css";
 
 export default function Header() {
   return (
-    <div className="header slide-animation">
+    <div className="header">
       <div className="icon-header">
         <SideBar />
       </div>

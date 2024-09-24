@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <>
-      <div className='content-infos slide-animation' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div className='content-infos' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div className="game" id='Game'>
           <div className="text-color star-wars-text text-space">
             <div className='text-space'>{status}</div>

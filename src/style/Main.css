@@ -15,7 +15,7 @@
 
 .Button-Theme {
   font-size: 20px;
-  padding: 8px 15px;
+  padding: 3px 6px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -116,20 +116,6 @@ hr {
   border: 1px solid #999;
   cursor: pointer;
   background: transparent;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.slide-animation {
-  animation: slide 5s ease;
 }
 
 .icon-header {

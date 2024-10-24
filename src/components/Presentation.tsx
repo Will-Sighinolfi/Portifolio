@@ -1,6 +1,6 @@
 import '../style/Presentation.css'
 import "../style/font.css"
-import AvatarImg from "../img/jedi.png";
+import AvatarImg from "../img/avataaars.svg";
 import { StaticImageData } from 'next/image';
 
 export default function Presentation() {
